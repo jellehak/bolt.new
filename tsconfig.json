@@ -4,7 +4,7 @@
     "types": ["@remix-run/cloudflare", "vite/client", "@cloudflare/workers-types/2023-07-01"],
     "isolatedModules": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
@@ -20,7 +20,7 @@
     },
 
     // vite takes care of building everything, not tsc
-    "noEmit": true
+    // "noEmit": true
   },
   "include": [
     "**/*.ts",
